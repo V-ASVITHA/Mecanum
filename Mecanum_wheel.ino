@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 #include <AccelStepper.h>
 
-SoftwareSerial Bluetooth(A8, 38);
+SoftwareSerial Bluetooth(A7, 38);
 
 AccelStepper LeftBackWheel(1, 42, 43);
 AccelStepper LeftFrontWheel(1, 40, 41);
